@@ -1,0 +1,67 @@
+.footer-container{
+    margin-top: 10px;
+    background-color: #e8f8fa;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.footer-content .logo{
+    margin-top: 120px;
+}
+.products-content a{
+    display:block;
+    margin-top: 10px;
+    color: rgb(25, 38, 82);
+    text-decoration: none;
+}
+.products-content a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.Integrations-content a{
+    display:block;
+    margin-top: 10px;
+    color: rgb(25, 38, 82);
+    text-decoration: none;
+}
+.Integrations-content a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.UseCases-content a{
+    display:block;
+    margin-top: 10px;
+    color: rgb(25, 38, 82);
+    text-decoration: none;
+}
+.UseCases-content a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.Company-content a{
+    display:block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(25, 38, 82);
+}
+.Company-content a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.track-shipment a{
+    color: rgb(25, 38, 82);
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.track-shipment a:hover{
+    color: red;
+}
+.footer-container h4{
+    color: rgb(25, 38, 82);
+}

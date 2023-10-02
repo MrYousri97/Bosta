@@ -1,0 +1,174 @@
+nav {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  z-index: 2000;
+  position: fixed;
+  height: auto;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+}
+ul.container{
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-content {
+  margin-right:100px;
+  transform: translateY(-10%);
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.dropbtn{
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(25, 38, 82);
+  font-size: 16px;
+  border: none;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+.dropbtn-Track{
+  background-color: transparent;
+  cursor: pointer;
+  color: red;
+  font-size: 16px;
+  border: none;
+  width: auto;
+  margin-right: 60px;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index: 1;
+}
+.dropdown-content button{
+  background-color: transparent;
+  cursor: pointer;
+  color: red;
+  font-size: 16px;
+  border: none;
+}
+.dropdown-content button:hover{
+  color:white;
+  background-color: red;
+
+}
+div.content {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+div.content a{
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(25, 38, 82);
+  font-size: 16px;
+  border: none;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+div.content a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: #dddddd46;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown:hover .dropbtn{
+  color: red;
+}
+.SignUp{
+  background-color: transparent;
+  cursor: pointer;
+  color: red;
+  font-size: 16px;
+  width: 100px;
+  border: none;
+  font-family: sans-serif;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid;
+  height: 50px;
+  margin-left: 30px;
+}
+.SignUp:hover{
+  background-color: red;
+  color: white;
+  text-decoration:1.2px underline;
+}
+.nav-rightContent{
+  transform: translateY(-25%);
+}
+@media screen and (max-width:800px) {
+  .nav-content{
+    margin-left: 10px;
+    display: inline;
+  }
+  .nav-content button{
+    font-size: 12px;
+  }
+  .nav-content a{
+    font-size: 12px;
+  }
+  div.content a{
+    font-size: 12px;
+  }
+  div.dropdown button.dropbtn{
+    font-size: 10px;
+  }
+  div.dropdown-content{
+    font-size: 12px;
+  }
+  .nav-rightContent{
+    display: flex;
+  }
+  
+}
+/* small Screen */
+
+@media screen and (max-width:600px) {
+  .container{
+    width: 90%;
+  }
+  .logo{
+    width: 80px;
+    height: 10px;
+    margin-left: 40%;
+  }
+  .nav-content{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+  .navbar{
+    display:inline-block
+  }
+  .nav-rightContent{
+    display: flex;
+    margin-left: 20%;
+  }
+}
