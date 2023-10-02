@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Bosta/static/css/main.7be1fe7e.css",
-    "main.js": "/Bosta/static/js/main.d7a566c2.js",
+    "main.js": "/Bosta/static/js/main.7841f52e.js",
     "static/media/home.jpg": "/Bosta/static/media/home.85e7099f6c25250b09a8.jpg",
     "static/media/report.png": "/Bosta/static/media/report.4dcebbdcfdab9ae7a4cd.png",
     "static/media/loading.jpg": "/Bosta/static/media/loading.62ca3fdc2db946662b58.jpg",
     "index.html": "/Bosta/index.html",
     "main.7be1fe7e.css.map": "/Bosta/static/css/main.7be1fe7e.css.map",
-    "main.d7a566c2.js.map": "/Bosta/static/js/main.d7a566c2.js.map"
+    "main.7841f52e.js.map": "/Bosta/static/js/main.7841f52e.js.map"
   },
   "entrypoints": [
     "static/css/main.7be1fe7e.css",
-    "static/js/main.d7a566c2.js"
+    "static/js/main.7841f52e.js"
   ]
 }
