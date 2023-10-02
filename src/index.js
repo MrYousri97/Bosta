@@ -21,7 +21,8 @@ const router = createBrowserRouter([
     path: "/track",
     element: (<Track/>),
   },
-])
+
+],{basename:'/Bosta'})
 root.render(
   
   // <React.StrictMode>
